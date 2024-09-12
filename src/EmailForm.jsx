@@ -87,7 +87,7 @@ export const EmailForm = () => {
 
   return (
     <div className="m-auto px-4 mt-4 mb-8" id="connectMe">
-      <h1 className="text-2xl font-semibold">Send Email</h1>
+      <h1 className="text-2xl font-semibold">Send Email to me</h1>
       <form ref={form} onSubmit={sendEmail} className="mt-10">
         <div className="container mx-auto px-4 justify-center text-center">
           <div>

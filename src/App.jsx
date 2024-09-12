@@ -4,13 +4,12 @@ import Ecommerce from "./assets/Ecommerce.png";
 import Kasper from "./assets/Kaspe.png";
 import Bondi from "./assets/Bondi.png";
 import Elzero from "./assets/Elzero.png";
-import Leon from "./assets/Leon.png";
 import Redux from "./assets/redux-svgrepo-com.svg";
 import TypeScript from "./assets/typescript-icon-svgrepo-com.svg";
 import TailwindCSS from "./assets/tailwind-css-svgrepo-com.svg";
 import myPhoto from "./assets/myPhoto.png";
 import ArrowDown from "./assets/arrow-down.svg";
-import myCv from "./PDFs/Hakam aldeen Alkhadraa.pdf";
+import myCv from "./PDFs/Hossam-Salah-Khatab-CV.pdf";
 import { useEffect, useState } from "react";
 import { EmailForm } from "./EmailForm.jsx";
 
@@ -43,7 +42,7 @@ function App() {
         <div className="container m-auto px-4 py-6 max-w-4xl bg-black">
           <div className="flex flex-col gap-4 sm:flex-row justify-between items-center">
             <div>
-              <h1 className="font-bold text-2xl">Hakam aldeen Portfolio</h1>
+              <h1 className="font-bold text-2xl">Hossam salah Portfolio</h1>
             </div>
             <div>
               <ul className="flex gap-4">
@@ -82,7 +81,7 @@ function App() {
           <div className="container m-auto px-4 pt-12 pb-12 sm:pt-20 flex flex-col sm:flex-row gap-6 text-center sm:text-left">
             <div className=" w-full md:max-w-[60%]">
               <h2 className="font-bold text-4xl">
-                Hello, I'm Hakam Aldeen Alkhadraa
+                Hello, I'm hossam salah Hassan
               </h2>
               <div>
                 <h2 className="font-bold text-4xl mt-1 gradiant-text">
@@ -103,7 +102,7 @@ function App() {
                 </p>
                 <a
                   href={myCv}
-                  download="HakamAldeenAlkadraaResume.pdf"
+                  download="Hossam-Salah-Khatab-CV.pdf"
                   target="_blank"
                 >
                   <button className=" px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
@@ -113,13 +112,13 @@ function App() {
               </div>
               <div className="text-white mt-10 ms-auto">
                 <a
-                  href="https://www.linkedin.com/in/hakam-aldeen-kh/"
+                  href="https://www.linkedin.com/in/hossam-salah-1ab717238/"
                   className="icon-linkedin text-3xl"
                 >
                   <i className="fa-brands fa-linkedin me-5"></i>
                 </a>
                 <a
-                  href="https://github.com/Hakam-aldeen-Kh"
+                  href="https://github.com/hossam101999"
                   className="icon-github text-3xl"
                 >
                   <i className="fa-brands fa-github"></i>
@@ -155,7 +154,7 @@ function App() {
                 </p>
                 <div className="flex justify-between gap-2 mt-12 items-end">
                   <a
-                    href="https://e-comtype.vercel.app/"
+                    href="https://angular-e-com-c48r.vercel.app"
                     className="w-1/2"
                     target="_blank"
                   >
@@ -164,7 +163,7 @@ function App() {
                     </button>
                   </a>
                   <a
-                    href="https://github.com/Hakam-aldeen-Kh/eCommerce"
+                    href="https://github.com/hossam101999/angular-E-com.git"
                     className="w-1/2"
                     target="_blank"
                   >
@@ -186,12 +185,12 @@ function App() {
                 </p>
                 <div className="flex mt-5 gap-2">
                   <a
-                    href="http://examgate.hostek.xyz"
+                    href="https://github.com/hossam101999/exam_.git"
                     target="_blank"
                     className="block w-full"
                   >
                     <button className="w-full text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                      Live preview
+                      cheackgithib
                     </button>
                   </a>
                 </div>
@@ -200,41 +199,32 @@ function App() {
             <div className="flex flex-col sm:flex-row gap-10 mt-11">
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Elzero} className="w-full h-[30vh]" />
-                <h3 className="text-2xl font-semibold mt-8">Elzero Project</h3>
+                <h3 className="text-2xl font-semibold mt-8">pizaproject</h3>
                 <p className="text-gray-400 text-sm mt-2">
                   Responsive HTML/CSS layout for landing page with animation
                 </p>
                 <div className="flex justify-between gap-2 mt-12 items-end">
+                
                   <a
-                    href="https://hakam-aldeen-kh.github.io/Templet-Three/"
-                    className="w-1/2"
-                    target="_blank"
-                  >
-                    <button className="w-full text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                      Live preview
-                    </button>
-                  </a>
-                  <a
-                    href="https://github.com/Hakam-aldeen-Kh/Templet-Three"
+                    href="https://drive.google.com/drive/folders/1AyP7HRwTIox0yMrTFQNfpVw1b3nySv3e"
                     className="w-1/2"
                     target="_blank"
                   >
                     <button className="w-full text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                      Checkout github
+                      Checkout drive
                     </button>
                   </a>
                 </div>
               </div>
               <div className="border border-gray-500 rounded-md p-5 flex-1">
                 <img src={Bondi} className="w-full h-[30vh]" />
-                <h3 className="text-2xl font-semibold mt-8">Bondi Project</h3>
+                <h3 className="text-2xl font-semibold mt-8">protofolio Project</h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS Bootstrap layout for landing page and
-                  filter items
+                  this iss an angular protogolio
                 </p>
                 <div className="flex justify-between gap-2 mt-10 items-end">
                   <a
-                    href="https://hakam-aldeen-kh.github.io/Bondi/"
+                    href="profile-in-angular.vercel.app"
                     className="w-1/2"
                     target="_blank"
                   >
@@ -243,7 +233,7 @@ function App() {
                     </button>
                   </a>
                   <a
-                    href="https://github.com/Hakam-aldeen-Kh/Bondi"
+                    href="https://github.com/hossam101999/profile_in_angular.git"
                     className="w-1/2"
                     target="_blank"
                   >
@@ -254,62 +244,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col sm:flex-row gap-10 mt-11">
-              <div className="border border-gray-500 rounded-md p-5 flex-1">
-                <img src={Kasper} className="w-full h-[30vh]" />
-                <h3 className="text-2xl font-semibold mt-8">Kasper Project</h3>
-                <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for landing page
-                </p>
-                <div className="flex justify-between gap-2 mt-12 items-end">
-                  <a
-                    href="https://elzerowebschool.github.io/HTML_And_CSS_Template_Two/"
-                    className="w-1/2"
-                    target="_blank"
-                  >
-                    <button className="w-full text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                      Live preview
-                    </button>
-                  </a>
-                  <a
-                    href="https://github.com/Hakam-aldeen-Kh/Kasper"
-                    className="w-1/2"
-                    target="_blank"
-                  >
-                    <button className="w-full text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                      Checkout github
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <div className="border border-gray-500 rounded-md p-5 flex-1">
-                <img src={Leon} className="w-full h-[30vh]" />
-                <h3 className="text-2xl font-semibold mt-8">Leon Project</h3>
-                <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for landing page
-                </p>
-                <div className="flex justify-between gap-2 mt-10 items-end">
-                  <a
-                    href="https://hakam-aldeen-kh.github.io/Leon/"
-                    className="w-1/2"
-                    target="_blank"
-                  >
-                    <button className="w-full text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
-                      Live preview
-                    </button>
-                  </a>
-                  <a
-                    href="https://github.com/Hakam-aldeen-Kh/Leon"
-                    className="w-1/2"
-                    target="_blank"
-                  >
-                    <button className="w-full text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
-                      Checkout github
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
+           
           </div>
         </section>
         {/* Technoglies section */}
@@ -458,59 +393,20 @@ function App() {
             </div>
           </div>
         </section>
-        {/* <section className="py-8" id="aboutme">
-          <div className="container m-auto px-4">
-            <h2 className="text-2xl font-semibold">About me</h2>
-            <div className="mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-10 sm:before:bottom-2 before:w-1 before:bg-white">
-              <div className="pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
-                <h3 className="absolute left-0 text-lg font-semibold">2015</h3>
-                <p>
-                  Graduated KTC (Krasnodar Technical College) and for about two
-                  years worked with high voltage (35, 110kV) substations as the
-                  specialty electrician of emergency mobile crew. Later
-                  qualified as a Crossfit trainer.
-                </p>
-              </div>
-              <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
-                <h3 className="absolute left-0 text-lg font-semibold">2015</h3>
-                <p>
-                  Underwent a digital marketing course and started to work as a
-                  PPC and project manager in a local web studio. After 3 months
-                  started my own freelance practice.
-                </p>
-              </div>
-              <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
-                <h3 className="absolute left-0 text-lg font-semibold">2015</h3>
-                <p>
-                  Became more interested in IT and decided to try programming.
-                  Underwent Java course and made a project.
-                </p>
-              </div>
-              <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]">
-                <h3 className="absolute left-0 text-lg font-semibold">2015</h3>
-                <p>
-                  Worked out in which field I want to build a developer's career
-                  and started to learn Frontend Development.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section> */}
-
-        {/*email form*/}
+       
         <EmailForm />
-        {/*email form*/}
+        
       </main>
       <footer>
         <div className="container m-auto flex justify-evenly px-4 py-6 align-middle">
           <div>
-            <p className="text-gray-300 text-sm">Hakam Aldeen Alkadraa</p>
+            <p className="text-gray-300 text-sm">hossam salah</p>
           </div>
           <div>
             <ul className="flex gap-4">
               <li>
                 <a
-                  href="https://www.linkedin.com/in/hakam-aldeen-kh/"
+                  href="https://www.linkedin.com/in/hossam-salah-1ab717238/"
                   className="icon-linkedin text-3xl"
                 >
                   <i className="fa-brands fa-linkedin me-0 sm:me-5"></i>
@@ -518,7 +414,7 @@ function App() {
               </li>
               <li>
                 <a
-                  href="https://github.com/Hakam-aldeen-Kh"
+                  href="https://github.com/hossam101999"
                   className="icon-github text-3xl"
                 >
                   <i className="fa-brands fa-github"></i>
@@ -543,4 +439,3 @@ function App() {
 }
 
 export default App;
-// * mail service_388s43d
